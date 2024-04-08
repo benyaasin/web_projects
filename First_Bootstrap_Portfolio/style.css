@@ -1,0 +1,12 @@
+.theme-color{
+    background-color:#7533FA !important ;
+}
+.bg-primary{
+    background-color:rgb(219, 216, 40)  !important;
+}
+.theme-text-color{
+    color:#7533FA !important;
+}
+.nav-link:hover{
+    color: black !important;
+}
