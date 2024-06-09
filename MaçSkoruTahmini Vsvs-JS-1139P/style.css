@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ababab !important;
+}
+.container {
+  text-align: center;
+  background: #fff;
+  width: 80%;
+  height: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  gap: 25px;
+}
+#TeamA {
+  width: 80%;
+  height: 50%;
+  padding: 20px;
+  color: rgb(0, 68, 255) ;
+}
+
+#TeamB {
+  width: 80%;
+  height: 50%;
+  padding: 20px;
+  color: rgb(0, 68, 255) ;
+}
+.animated-background {
+ 
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(
+    circle farthest-side,
+    #000000,
+    #aaa,
+    #911717,
+    #fae504
+  );
+  background-size: 500% 500%;
+  animation: patternShift 20s linear infinite;
+  border-radius: 50px;
+}
+
+@keyframes patternShift {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+#skorA{
+  font-weight: bold;
+}
